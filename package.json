@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "wdio wdio.conf.js"
+    "test": "wdio wdio.conf.js",
+    "tsc": "tsc"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "@types/jasmine": "^3.5.0",
     "@wdio/runner": "^5.7.4",
     "@wdio/selenium-standalone-service": "^5.7.2",
+    "typescript": "^3.7.4",
     "webdriverio": "5.7.2"
   },
   "devDependencies": {
