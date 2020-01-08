@@ -17,8 +17,6 @@ steps:
 
 - script: |
     npm install
-    npm install typescript
-    tsc
-    ls
+    npm run tsc
     npm test
   displayName: 'npm install and test'
